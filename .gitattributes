@@ -1,9 +1,14 @@
-Documents/* eol=crlf
-Windows/Config.ini eol=crlf
-Windows/Hosts.ini eol=crlf
-Windows/IPFilter.ini eol=crlf
-Windows/Routing.txt eol=crlf
-Windows/ServiceControl.bat eol=crlf
-Windows/WhiteList.txt eol=crlf
-Windows/Tools/Update_Routing/* eol=crlf
-Windows/Tools/Update_WhiteList/* eol=crlf
+# Newline format in Windows(CR-LF)
+*.bat text eol=crlf
+*.ini text eol=crlf
+Documents/*.txt text eol=crlf
+Windows/* eol=crlf
+
+# Newline format in Linux/Mac(LF)
+*.conf text eol=lf
+*.plist text eol=lf
+*.sh text eol=lf
+Mac/* eol=lf
+
+# Binary files
+*.exe binary
